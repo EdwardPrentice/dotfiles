@@ -1,7 +1,13 @@
 #!/bin/bash -eu
 #
 # A simple bashrc
-#
+# Recommended use is to append this block to your ~/.bashrc file so you can
+# keep this directory under version control:
+# 
+# if [ -f $HOME/dotfiles/bashrc ]; then
+#     . $HOME/dotfiles/bashrc
+# fi
+# 
 # Deliberately simple in order to enable easier hacking
 #
 # Some of the functions, eg _exit, are intended as an example of a feature of bash
